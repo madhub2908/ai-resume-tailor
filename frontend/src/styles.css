@@ -1,0 +1,89 @@
+:root {
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  color: #14213d;
+  background-color: #f4f7fb;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 2rem 1rem 3rem;
+}
+
+h1 {
+  margin-bottom: 0.5rem;
+}
+
+.subhead {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  color: #4b5a7a;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #e3e9f4;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.85rem;
+  font-weight: 600;
+}
+
+textarea,
+input[type='file'] {
+  width: 100%;
+  margin-top: 0.4rem;
+}
+
+textarea {
+  border: 1px solid #c9d4e8;
+  border-radius: 8px;
+  padding: 0.65rem;
+  resize: vertical;
+}
+
+button {
+  background: #1d4ed8;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.65rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.7;
+  cursor: wait;
+}
+
+.error {
+  background: #fee2e2;
+  border: 1px solid #fecaca;
+  color: #b91c1c;
+  border-radius: 10px;
+  padding: 0.75rem;
+}
+
+.results .score {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.results ul {
+  padding-left: 1.2rem;
+}
